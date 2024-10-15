@@ -1,0 +1,104 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hello",
+          "Hey",
+          "Good morning",
+          "Good evening"
+        ],
+        "responses": [
+          "Hello! How can I assist you today?",
+          "Hi there! What can I do for you?",
+          "Greetings! How may I help you?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye",
+          "See you later",
+          "Goodbye",
+          "I have to go"
+        ],
+        "responses": [
+          "Goodbye! Have a great day!",
+          "See you later! Don't hesitate to return if you have more questions.",
+          "Take care! Feel free to reach out anytime."
+        ]
+      },
+      {
+        "tag": "help",
+        "patterns": [
+          "I need help",
+          "Can you assist me?",
+          "I have a question",
+          "Help me"
+        ],
+        "responses": [
+          "Of course! What do you need help with?",
+          "I'm here to help! Please tell me your issue.",
+          "Sure! What can I assist you with today?"
+        ]
+      },
+      {
+        "tag": "services",
+        "patterns": [
+          "What services do you offer?",
+          "Tell me about your services",
+          "Do you provide support?",
+          "What can you help me with?"
+        ],
+        "responses": [
+          "We offer a variety of services including A, B, and C. Which one are you interested in?",
+          "Our services include A, B, and C. What would you like to know more about?",
+          "We provide A, B, and C. How can I assist you with these?"
+        ]
+      },
+      {
+        "tag": "refund",
+        "patterns": [
+          "I want a refund",
+          "How do I get a refund?",
+          "Can I return my purchase?",
+          "I need help with a refund"
+        ],
+        "responses": [
+          "Sure! Can you please provide me with your order number?",
+          "I can help with that. What was your order number?",
+          "To process a refund, I need your order details. What is your order number?"
+        ]
+      },
+      {
+        "tag": "login_issue",
+        "patterns": [
+          "I can't log in",
+          "I'm having trouble logging in",
+          "Help me with login",
+          "I forgot my password"
+        ],
+        "responses": [
+          "I'm sorry to hear that. Have you tried resetting your password?",
+          "I can help with that. Have you attempted to recover your password?",
+          "Let’s get you back in. Have you tried the password recovery option?"
+        ]
+      },
+      {
+        "tag": "feedback",
+        "patterns": [
+          "Was this helpful?",
+          "I need more information",
+          "Can you tell me more?",
+          "This doesn't answer my question"
+        ],
+        "responses": [
+          "Was this information helpful? Do you have any other questions?",
+          "I’m here to help! What else would you like to know?",
+          "If you need more information, feel free to ask!"
+        ]
+      }
+    ]
+  }
+  
